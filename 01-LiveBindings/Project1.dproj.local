@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/29 17:07:21.000.957,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/10/30 20:56:12.000.051,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/11/09 13:51:59.000.999,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/11/30 18:11:17.000.802,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/11/30 18:47:09.000.677,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/11/30 18:55:18.000.772,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/12/17 23:55:47.508,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/12/17 23:56:48.876,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\01-LiveBindings\Unit1.fmx=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.fmx</Transaction>
+    <Transaction>2018/12/17 23:56:48.876,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\01-LiveBindings\Unit1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/12/17 23:56:51.693,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\01-LiveBindings\Project1.dproj=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pimac iOSSimulator="iPhone5" iOSDevice64="_iosdevice_4735ab942d82a0a75d28785082e67b230f810e02" iOSDevice32="_iosdevice_4735ab942d82a0a75d28785082e67b230f810e02"/>
+		<NoProfile Android="0123456789ABCDEF" iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

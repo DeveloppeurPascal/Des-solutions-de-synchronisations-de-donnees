@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/12/18 02:42:56.000.629,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/12/18 02:43:20.000.294,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ClientFMX\Unit1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/12/18 02:43:20.000.294,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ClientFMX\Unit1.fmx=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.fmx</Transaction>
+    <Transaction>2018/12/18 02:43:23.000.277,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ClientFMX\Project2.dproj=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Project2.dproj</Transaction>
+    <Transaction>2018/12/18 02:43:50.000.924,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ClientFMX\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/12/18 02:43:51.000.290,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ClientFMX\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2018/12/18 02:45:45.000.469,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ClientFMX\Unit2.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

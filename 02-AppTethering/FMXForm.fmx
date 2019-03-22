@@ -1,0 +1,74 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'FMX Form'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Size.Width = 472.000000000000000000
+    Size.Height = 430.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 468.000000000000000000
+    Viewport.Height = 426.000000000000000000
+  end
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object btnAutoConnect: TButton
+      Align = Left
+      Size.Width = 80.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Connexion'
+      OnClick = btnAutoConnectClick
+    end
+  end
+  object ImageViewer1: TImageViewer
+    Align = Right
+    Position.X = 472.000000000000000000
+    Position.Y = 50.000000000000000000
+    Size.Width = 168.000000000000000000
+    Size.Height = 430.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Viewport.Width = 164.000000000000000000
+    Viewport.Height = 426.000000000000000000
+  end
+  object ATManagerFMX: TTetheringManager
+    OnPairedToRemote = ATManagerFMXPairedToRemote
+    OnRequestManagerPassword = ATManagerFMXRequestManagerPassword
+    Text = 'Mon manager FMX'
+    AllowedAdapters = 'Network'
+    Left = 48
+    Top = 128
+  end
+  object TetheringAppProfile1: TTetheringAppProfile
+    Manager = ATManagerFMX
+    Text = 'FMXTetheringAppProfile'
+    Group = 'MonGroupe'
+    Actions = <>
+    Resources = <
+      item
+        Name = 'ValeurPartagee'
+        IsPublic = True
+        Kind = Mirror
+        OnResourceReceived = TetheringAppProfile1Resources0ResourceReceived
+      end>
+    OnAcceptResource = TetheringAppProfile1AcceptResource
+    OnResourceReceived = TetheringAppProfile1ResourceReceived
+    Left = 192
+    Top = 128
+  end
+end

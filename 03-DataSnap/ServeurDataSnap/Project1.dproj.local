@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/29 17:07:21.000.957,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/10/30 20:56:12.000.051,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/11/09 13:51:59.000.999,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/11/30 18:11:17.000.802,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/11/30 18:47:09.000.677,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/11/30 18:55:18.000.772,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/12/17 23:59:24.000.379,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2018/12/18 02:40:30.000.467,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2018/12/18 02:40:32.000.692,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\ServerConst1.pas</Transaction>
+    <Transaction>2018/12/18 02:40:33.000.179,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2018/12/18 02:41:03.000.671,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\ServerContainerUnit1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ServeurDataSnap\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2018/12/18 02:41:03.000.671,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\ServerContainerUnit1.dfm=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ServeurDataSnap\ServerContainerUnit1.dfm</Transaction>
+    <Transaction>2018/12/18 02:41:07.000.194,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\ServerConst1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ServeurDataSnap\ServerConst1.pas</Transaction>
+    <Transaction>2018/12/18 02:41:09.000.960,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\ServerMethodsUnit1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ServeurDataSnap\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2018/12/18 02:41:09.000.960,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\ServerMethodsUnit1.dfm=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ServeurDataSnap\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>2018/12/18 02:41:12.000.531,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Project1.dproj=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\20181218-webinaire-synchro-donnees\03-DataSnap\ServeurDataSnap\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pimac iOSSimulator="iPhone5" iOSDevice64="_iosdevice_4735ab942d82a0a75d28785082e67b230f810e02" iOSDevice32="_iosdevice_4735ab942d82a0a75d28785082e67b230f810e02"/>
+		<NoProfile Android="0123456789ABCDEF"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{910B8B87-B265-4D72-BF17-386061122A85}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="FMXProject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="VCLProject.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FMXProject">
+        <MSBuild Projects="FMXProject.dproj"/>
+    </Target>
+    <Target Name="FMXProject:Clean">
+        <MSBuild Projects="FMXProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXProject:Make">
+        <MSBuild Projects="FMXProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="VCLProject">
+        <MSBuild Projects="VCLProject.dproj"/>
+    </Target>
+    <Target Name="VCLProject:Clean">
+        <MSBuild Projects="VCLProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VCLProject:Make">
+        <MSBuild Projects="VCLProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FMXProject;VCLProject"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FMXProject:Clean;VCLProject:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FMXProject:Make;VCLProject:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
