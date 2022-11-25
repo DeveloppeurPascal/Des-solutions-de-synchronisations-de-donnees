@@ -13,7 +13,7 @@ uses
   FMX.Layouts, FMX.ExtCtrls, Data.Bind.Components, Data.Bind.Grid,
   Data.Bind.DBScope, FMX.ScrollBox, FMX.Grid, FireDAC.Stan.StorageJSON, Data.DB,
   FireDAC.Comp.DataSet, FireDAC.Comp.Client, FMX.Controls.Presentation,
-  FMX.StdCtrls, FMX.Memo;
+  FMX.StdCtrls, FMX.Memo, FMX.Memo.Types;
 
 type
   TForm1 = class(TForm)
@@ -66,7 +66,7 @@ begin
                 ImageViewer1.Bitmap.LoadFromStream(reponse.ContentStream);
               end);
         finally
-          freeandnil(reponse);
+          // freeandnil(reponse); // No FreeAndNil() for Interfaces
         end;
       finally
         freeandnil(serveur);
@@ -95,7 +95,7 @@ begin
                   TFDStorageformat.sfJSON);
               end);
         finally
-          freeandnil(reponse);
+          // freeandnil(reponse); // No FreeAndNil() for Interfaces
         end;
       finally
         freeandnil(serveur);
@@ -131,7 +131,7 @@ begin
             else
               Memo1.Lines.Add('erreur');
           finally
-            freeandnil(reponse);
+            // freeandnil(reponse); // No FreeAndNil() for Interfaces
           end;
         finally
           freeandnil(post_param);
